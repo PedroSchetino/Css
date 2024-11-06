@@ -1,0 +1,73 @@
+/* Configuraçoes Gerais */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4c7ccc;
+    color: white;
+    text-align: center;
+    padding: 2vh 0;
+    /*Altura relativa à viewport */
+}
+
+/* Conteudo */
+.content {
+    width: 80vw;
+    /* Largura relativa à viewport */
+    margin: 5vh;
+    /* Margem superior e inferior em relação à altura da viewport */
+    padding: 2vh 2vw;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    h2 {
+        text-shadow: 1px 1px 3px #91919133;
+    }
+    .imagem-responsiva {
+        width: 80%;
+        /* A imagem ocupa 80% da largura do contêiner */
+        max-width: 300px;
+        /* Limita o tamanho máximo da imagem */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        display: block;
+        margin: 0 auto;
+        /* Centraliza a imagem */
+    }
+
+
+}
+
+h1 {
+    font-size: 2rem;
+    /* Tamanho da fonte relativo à raiz do documento */
+    text-shadow: 2px 2px 5px #333;
+}
+
+p {
+    font-size: 1.2em;
+    /* Tamanho da fonte relativo ao elemento pai */
+    margin: 1em 0;
+    /* Espaçamento vertical usando `em` */
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1vh 0;
+}
+
+/* Responsividade com Media Queries */
+@media (max-width: 768px) {
+    .content {
+        width: 90vw;
+        /* Aumenta a largura do conteudo em telas menores */
+    }
+}

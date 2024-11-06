@@ -1,0 +1,34 @@
+/*
+Ordem de especificidade: quantos mais especifico, mais prioridade o CSS dará.
+1. id
+2. class
+3. tag do elemento html
+*/
+
+p {
+    color: blue;
+    background-color: yellow;
+}
+
+/* Seletores */
+/* 1. id - Pode aparecer apenas em um elemento
+ Exemplo: Usar em links.
+ 
+*/
+#paragrafo {
+    color: red;
+    background-color: transparent;
+}
+
+/* 2. class:
+- Pode usar a mesma class em 1 ou mais elementos
+- pode ter + de 1 class p/elemento
+*/
+.fundo-azul {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.texto {
+    color: whitesmoke;
+}

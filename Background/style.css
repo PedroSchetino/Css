@@ -1,0 +1,20 @@
+div {
+    width: 500px;
+    height: 300px;
+    /* Tipos de background
+    background-color: rgb(240, 100, 0);
+    background-image: url('./imagens/Textura_fundo.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover; */
+    background: rgb(240, 100, 0) url('./imagens/Textura_fundo.png') no-repeat right;
+    background-size: cover;
+}
+
+p {
+    width: 300px;
+    background-color: yellow;
+    background-image: url('./imagens/Fundo_abstrato.jpg');
+    background-attachment: fixed;
+
+}

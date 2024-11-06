@@ -1,0 +1,15 @@
+/* São unidades fixas independentemente 
+do tamanho da responsividade. 
+Podendo distorcer o layout e a perspectiva
+dos elementos em telas diferentes. */
+
+#fotoTeste {
+    width: 500px;
+}
+
+.azul {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    font-size: 100px;
+}

@@ -1,0 +1,21 @@
+    /* 
+    Cores para transaçao em degrade: 
+    background: linear-gradient( red, blue, green);
+
+    Angulo de transação do degrade:
+    1. Direção:
+    background: linear-gradient(to bottom right, red, blue, green);
+    2. Angulo:
+    background: linear-gradient(30deg, red, blue, green);
+
+    Concentrar cor ou transação do degrade:
+    1. Cor:
+    background: linear-gradient( red, blue 25%, green); 
+    2. Transação:
+    background: linear-gradient( red, blue, 25%, green);
+    */
+
+.Gradiente {
+    height: 500px;
+    background:  linear-gradient(rgb(30, 232, 67),  25%, rgb(193, 185, 37), rgb(255, 255, 255));
+}

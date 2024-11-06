@@ -1,0 +1,18 @@
+.container {}
+
+.exempli1 {}
+
+.exemplo2 {}
+
+.exemplo3 {
+    /* rem é uma unidade relativa que se 
+    baseia no tamanho da fonte do elemento 
+    raiz (html) */
+    font-size: 2rem;
+}
+
+html {
+    /* Elemento raiz definido o tamanho de 
+    fonte padrão para todo o documento HTML */
+    font-size: 20px;
+}

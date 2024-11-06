@@ -1,0 +1,17 @@
+#paragrafo1 {
+    color: red;
+    /* color: blue; */
+    background-color: #ff6400;
+    background-color: rgb(255, 255, 0);
+    text-decoration: underline;
+    /*
+    background-color: rgb(255, 255, 0);
+    Cor em RGB
+
+    background-color: #ff6400; 
+    hexaDecimal: ff6400 
+    
+    background-color: rgba(255, 255, 0,  64);
+    Cor com nível de opacidade
+    */
+}

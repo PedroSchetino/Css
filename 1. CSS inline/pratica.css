@@ -1,0 +1,23 @@
+/* PRATICA DE CSS EXTERNO - 
+RELEMBRAR ORDEM DE ESPECIFICIDADE */
+
+body {
+    background-color: azure;
+}
+
+.title {
+    color: rgb(73, 90, 43);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#paragrafo {
+    background-color: darkgoldenrod;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto {
+    background-color: darkseagreen;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

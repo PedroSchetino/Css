@@ -1,0 +1,28 @@
+/*
+Essas unidades são úteis para criar layouts responsivos que 
+se adaptam ao tamanho da tela.
+
+vw (viewport width): Representa uma porcentagem da largura da viewport. 
+Por exemplo, 50vw significa 50% da largura da viewport.
+
+vh (viewport height): Representa uma porcentagem da altura da viewport. 
+Por exemplo, 100vh significa 100% da altura da viewport.
+*/
+
+#azul {
+    width: 50vw;
+    height: 300px;
+    background-color: blue;
+}
+
+
+#vermelho {
+    width: 500px;
+    height: 50vh;
+    background-color: red;
+
+}
+
+.foto {
+    width: 50%;
+}
